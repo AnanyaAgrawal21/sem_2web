@@ -1,0 +1,48 @@
+.card{
+    background-color: antiquewhite;
+    width:150px;
+    position:relative
+
+}
+
+.dlt{
+    position:absolute;
+    top:5px;
+    right:5px;
+    background-color: red;
+    color:white;
+    width:15px;
+    height:15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: radius 50%;;
+
+}
+body{
+  background: linear-gradient(135deg,#8EC5FC,#E0C3FC);
+  font-family: sans-serif;
+}
+
+.eventForm{
+  background:#fff;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.15);
+}
+
+input, select, textarea{
+  width:100%;
+  padding:8px;
+  margin-bottom:10px;
+  border-radius:6px;
+  border:1px solid #ccc;
+}
+
+input[type="submit"]{
+  background: linear-gradient(to right,#667eea,#764ba2);
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+}

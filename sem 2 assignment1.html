@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport content=width=device-width,initial-scale=1.0">
+<title>JAVASCRIPT</title>
+<link rel=stylesheet href="assignment1.css">
+</head>
+<body>
+<h1>Add New Event</h1>
+<div class="container">
+    <div class="eventForm">
+<form class="form">
+  <label for="eventTitle">Event Title</label>
+  <input type="text" id="eventTitle" required>
+
+  <label for="eventDate">Event Date</label>
+  <input type="date" id="eventDate" required>
+
+  <label for="category">Category</label>
+  <select id="category">
+    <option value="Conference">Conference</option>
+    <option value="Workshop">Workshop</option>
+    <option value="Meetup">Meetup</option>
+    <option value="Webinar">Webinar</option>
+  </select>
+
+  <label for="description">Description</label>
+  <textarea id="description"></textarea>
+
+  <input type="submit" value="Add Event">
+</form>
+
+<div class="events">
+  <div class="cards"></div>
+</div>
+<script src="/assignment.js"></script>
+</body>
+</html>
+        
+
+    
+
