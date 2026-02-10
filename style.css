@@ -4,3 +4,10 @@
     height:50px;
     background color: aqua;
 }
+.submit{
+    border-radius: 10px;
+}
+li{
+    width:300px;
+    background-color: aqua;
+}
